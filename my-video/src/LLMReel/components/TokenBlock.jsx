@@ -38,7 +38,7 @@ export const TokenBlock = ({ token, index, delay = 0 }) => {
       <span
         style={{
           color: color.text,
-          fontFamily: '"JetBrains Mono", monospace',
+          fontFamily: '"JetBrains Mono", monospace, "Noto Color Emoji"',
           fontSize: 36,
           fontWeight: 700,
           letterSpacing: '1px',

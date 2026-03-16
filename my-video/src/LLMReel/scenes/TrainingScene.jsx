@@ -75,7 +75,7 @@ export const TrainingScene = () => {
         <GradientText gradient={GRADIENTS.cyanGreen} size={120} weight={900}>
           {Math.round(totalProgress)} GB
         </GradientText>
-        <div style={{ color: 'rgba(255,255,255,0.7)', fontSize: 32, fontFamily: '"Space Grotesk", sans-serif' }}>
+        <div style={{ color: 'rgba(255,255,255,0.7)', fontSize: 32, fontFamily: '"Space Grotesk", sans-serif, "Noto Color Emoji"' }}>
           of training data
         </div>
       </div>
@@ -112,7 +112,7 @@ export const TrainingScene = () => {
             >
               <span style={{ fontSize: 44 }}>{icon}</span>
               <div style={{ flex: 1 }}>
-                <div style={{ color: '#fff', fontSize: 28, fontFamily: '"Space Grotesk", sans-serif', fontWeight: 600, marginBottom: 8 }}>
+                <div style={{ color: '#fff', fontSize: 28, fontFamily: '"Space Grotesk", sans-serif, "Noto Color Emoji"', fontWeight: 600, marginBottom: 8 }}>
                   {label}
                 </div>
                 <div
@@ -134,7 +134,7 @@ export const TrainingScene = () => {
                   />
                 </div>
               </div>
-              <div style={{ color, fontSize: 36, fontFamily: '"JetBrains Mono", monospace', fontWeight: 700 }}>
+              <div style={{ color, fontSize: 36, fontFamily: '"JetBrains Mono", monospace, "Noto Color Emoji"', fontWeight: 700 }}>
                 {size}
               </div>
             </div>

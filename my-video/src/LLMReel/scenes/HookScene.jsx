@@ -108,7 +108,7 @@ export const HookScene = () => {
             style={{
               color: '#A78BFA',
               fontSize: 28,
-              fontFamily: '"Space Grotesk", sans-serif',
+              fontFamily: '"Space Grotesk", sans-serif, "Noto Color Emoji"',
               fontWeight: 700,
               letterSpacing: '3px',
               textTransform: 'uppercase',
@@ -158,7 +158,7 @@ export const HookScene = () => {
           style={{
             color: COLORS.textMuted,
             fontSize: 40,
-            fontFamily: '"Space Grotesk", sans-serif',
+            fontFamily: '"Space Grotesk", sans-serif, "Noto Color Emoji"',
             fontWeight: 500,
             letterSpacing: '1px',
           }}

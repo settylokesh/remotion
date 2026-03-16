@@ -97,7 +97,7 @@ export const WhatIsLLMScene = () => {
                   fontSize: 100,
                   fontWeight: 900,
                   color,
-                  fontFamily: '"Space Grotesk", sans-serif',
+                  fontFamily: '"Space Grotesk", sans-serif, "Noto Color Emoji"',
                   textShadow: `0 0 30px ${color}88`,
                   lineHeight: 1,
                 }}
@@ -108,7 +108,7 @@ export const WhatIsLLMScene = () => {
                 style={{
                   fontSize: 30,
                   color: 'rgba(255,255,255,0.85)',
-                  fontFamily: '"Space Grotesk", sans-serif',
+                  fontFamily: '"Space Grotesk", sans-serif, "Noto Color Emoji"',
                   fontWeight: 600,
                 }}
               >
@@ -149,7 +149,7 @@ export const WhatIsLLMScene = () => {
                 transform: `translateX(${interpolate(s, [0, 1], [-30, 0])}px)`,
                 color: i === DEFINITION.length - 1 ? '#A78BFA' : 'rgba(255,255,255,0.85)',
                 fontSize: 34,
-                fontFamily: '"Space Grotesk", sans-serif',
+                fontFamily: '"Space Grotesk", sans-serif, "Noto Color Emoji"',
                 fontWeight: i === DEFINITION.length - 1 ? 700 : 500,
                 textAlign: 'center',
                 lineHeight: 1.4,

@@ -51,6 +51,6 @@ export const SCENE_DURATIONS = {
 export const TRANSITION_DUR = 25;
 
 export const FONT = {
-  display: '"Space Grotesk", "Inter", system-ui, sans-serif',
-  mono: '"JetBrains Mono", "Fira Mono", monospace',
+  display: '"Space Grotesk", "Inter", system-ui, sans-serif, "Noto Color Emoji"',
+  mono: '"JetBrains Mono", "Fira Mono", monospace, "Noto Color Emoji"',
 };

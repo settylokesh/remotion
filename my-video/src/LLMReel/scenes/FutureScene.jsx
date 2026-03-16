@@ -110,10 +110,10 @@ export const FutureScene = () => {
             >
               <span style={{ fontSize: 50, flexShrink: 0 }}>{icon}</span>
               <div>
-                <div style={{ color: '#fff', fontSize: 30, fontFamily: '"Space Grotesk", sans-serif', fontWeight: 700, marginBottom: 4 }}>
+                <div style={{ color: '#fff', fontSize: 30, fontFamily: '"Space Grotesk", sans-serif, "Noto Color Emoji"', fontWeight: 700, marginBottom: 4 }}>
                   {text}
                 </div>
-                <div style={{ color: 'rgba(255,255,255,0.55)', fontSize: 24, fontFamily: '"Space Grotesk", sans-serif' }}>
+                <div style={{ color: 'rgba(255,255,255,0.55)', fontSize: 24, fontFamily: '"Space Grotesk", sans-serif, "Noto Color Emoji"' }}>
                   {sub}
                 </div>
               </div>
