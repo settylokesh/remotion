@@ -1,5 +1,5 @@
 import { useCurrentFrame, useVideoConfig, spring, interpolate, Audio } from 'remotion';
-import { vineBoom, ding } from '@remotion/sfx';
+import { ding } from '@remotion/sfx';
 import { FloatingOrbs } from '../components/FloatingOrbs';
 import { FlashOverlay } from '../components/SceneWrapper';
 import { GradientText, SolidText } from '../components/GradientText';
@@ -128,7 +128,6 @@ export const HookScene = () => {
         </div>
       </div>
 
-      <Audio src={vineBoom} startFrom={0} volume={0.65} />
       <Audio src={ding} startFrom={0} endAt={30} volume={0.35} />
     </div>
   );

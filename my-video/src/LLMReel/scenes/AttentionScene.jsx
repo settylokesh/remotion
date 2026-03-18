@@ -68,7 +68,7 @@ export const AttentionScene = () => {
           backdropFilter: 'blur(10px)',
         }}
       >
-        <p style={{ color: '#F9A8D4', fontSize: 30, fontFamily: '"Space Grotesk", sans-serif', fontWeight: 600, margin: 0, lineHeight: 1.5 }}>
+        <p style={{ color: '#F9A8D4', fontSize: 30, fontFamily: '"Space Grotesk", sans-serif, "Noto Color Emoji"', fontWeight: 600, margin: 0, lineHeight: 1.5 }}>
           "Attention Is All You Need" — Vaswani et al. 2017
         </p>
       </div>
@@ -85,7 +85,7 @@ export const AttentionScene = () => {
           width: '100%',
         }}
       >
-        <p style={{ color: 'rgba(255,255,255,0.55)', fontSize: 26, fontWeight: 500, fontFamily: '"Space Grotesk", sans-serif', margin: '0 0 20px 0', textAlign: 'center' }}>
+        <p style={{ color: 'rgba(255,255,255,0.55)', fontSize: 26, fontWeight: 500, fontFamily: '"Space Grotesk", sans-serif, "Noto Color Emoji"', margin: '0 0 20px 0', textAlign: 'center' }}>
           Each word "attends" to relevant context:
         </p>
 
@@ -110,7 +110,7 @@ export const AttentionScene = () => {
                     padding: '12px 18px',
                     color: i === 5 ? '#F9A8D4' : '#fff',
                     fontSize: 28,
-                    fontFamily: '"JetBrains Mono", monospace',
+                    fontFamily: '"JetBrains Mono", monospace, "Noto Color Emoji"',
                     fontWeight: i === 5 ? 700 : 500,
                     textAlign: 'center',
                     minWidth: 100,
@@ -147,7 +147,7 @@ export const AttentionScene = () => {
           </svg>
         </div>
 
-        <p style={{ color: 'rgba(255,255,255,0.55)', fontSize: 24, fontFamily: '"Space Grotesk", sans-serif', margin: '16px 0 0 0', textAlign: 'center' }}>
+        <p style={{ color: 'rgba(255,255,255,0.55)', fontSize: 24, fontFamily: '"Space Grotesk", sans-serif, "Noto Color Emoji"', margin: '16px 0 0 0', textAlign: 'center' }}>
           Attention weights show which words matter most
         </p>
       </div>
@@ -171,7 +171,7 @@ export const AttentionScene = () => {
             }}
           >
             <div style={{ width: 12, height: 12, borderRadius: '50%', background: '#EC4899', boxShadow: '0 0 12px #EC4899' }} />
-            <span style={{ color: '#F9A8D4', fontSize: 30, fontFamily: '"Space Grotesk", sans-serif', fontWeight: 600 }}>
+            <span style={{ color: '#F9A8D4', fontSize: 30, fontFamily: '"Space Grotesk", sans-serif, "Noto Color Emoji"', fontWeight: 600 }}>
               {item}
             </span>
           </div>

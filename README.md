@@ -1,2 +1,0 @@
-# remotion
-Video creation 

@@ -1,5 +1,5 @@
 import { useCurrentFrame, useVideoConfig, spring, interpolate, Audio } from 'remotion';
-import { vineBoom, ding, uiSwitch } from '@remotion/sfx';
+import { ding, uiSwitch } from '@remotion/sfx';
 import { FloatingOrbs } from '../components/FloatingOrbs';
 import { FlashOverlay } from '../components/SceneWrapper';
 import { GradientText, SolidText } from '../components/GradientText';
@@ -118,7 +118,6 @@ export const CTAScene = () => {
         </GradientText>
       </div>
 
-      <Audio src={vineBoom} startFrom={0} volume={0.55} />
       <Audio src={ding} startFrom={0} endAt={20} volume={0.4} />
       {FOLLOW_ITEMS.map((item, i) => (
         <Audio key={i} src={uiSwitch} startFrom={item.delay} endAt={item.delay + 12} volume={0.28} />

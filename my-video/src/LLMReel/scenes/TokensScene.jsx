@@ -77,7 +77,7 @@ export const TokensScene = () => {
           style={{
             color: 'rgba(255,255,255,0.8)',
             fontSize: 32,
-            fontFamily: '"Space Grotesk", sans-serif',
+            fontFamily: '"Space Grotesk", sans-serif, "Noto Color Emoji"',
             fontWeight: 500,
             lineHeight: 1.5,
             margin: 0,
@@ -90,14 +90,14 @@ export const TokensScene = () => {
 
       {/* Raw text */}
       <div style={{ textAlign: 'center', opacity: spring({ frame: Math.max(0, frame - 15), fps }) }}>
-        <div style={{ color: 'rgba(255,255,255,0.45)', fontSize: 26, fontFamily: '"Space Grotesk", sans-serif', marginBottom: 12 }}>
+        <div style={{ color: 'rgba(255,255,255,0.45)', fontSize: 26, fontFamily: '"Space Grotesk", sans-serif, "Noto Color Emoji"', marginBottom: 12 }}>
           Raw input:
         </div>
         <div
           style={{
             color: '#FFFFFF',
             fontSize: 52,
-            fontFamily: '"JetBrains Mono", monospace',
+            fontFamily: '"JetBrains Mono", monospace, "Noto Color Emoji"',
             fontWeight: 700,
             background: 'rgba(255,255,255,0.08)',
             border: '1.5px solid rgba(255,255,255,0.15)',
@@ -147,7 +147,7 @@ export const TokensScene = () => {
           padding: '12px 36px',
         }}
       >
-        <span style={{ color: '#FCD34D', fontSize: 32, fontFamily: '"Space Grotesk", sans-serif', fontWeight: 700 }}>
+        <span style={{ color: '#FCD34D', fontSize: 32, fontFamily: '"Space Grotesk", sans-serif, "Noto Color Emoji"', fontWeight: 700 }}>
           7 tokens · GPT-4 uses up to 128K tokens
         </span>
       </div>

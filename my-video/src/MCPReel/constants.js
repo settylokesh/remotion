@@ -40,8 +40,8 @@ export const HEIGHT = 1920;
 export const TOTAL_FRAMES = 2700;
 
 export const FONT = {
-  display: '"Inter", "SF Pro Display", system-ui, sans-serif',
-  mono:    '"JetBrains Mono", "Fira Mono", monospace',
+  display: '"Inter", "SF Pro Display", system-ui, sans-serif, "Noto Color Emoji"',
+  mono:    '"JetBrains Mono", "Fira Mono", monospace, "Noto Color Emoji"',
 };
 
 export const SCENE_DURATIONS = {

@@ -1,7 +1,0 @@
-{
-  "name": "remotion",
-  "private": true,
-  "workspaces": [
-    "my-video"
-  ]
-}

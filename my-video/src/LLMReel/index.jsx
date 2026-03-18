@@ -6,7 +6,7 @@ import { wipe } from '@remotion/transitions/wipe';
 import { flip } from '@remotion/transitions/flip';
 import { clockWipe } from '@remotion/transitions/clock-wipe';
 import { noise2D } from '@remotion/noise';
-import { COLORS, FONT } from './constants';
+import { COLORS, FONT, SCENE_DURATIONS, TRANSITION_DUR, TOTAL_FRAMES } from './constants';
 
 import { HookScene } from './scenes/HookScene';
 import { WhatIsLLMScene } from './scenes/WhatIsLLMScene';
@@ -17,21 +17,6 @@ import { AppsScene } from './scenes/AppsScene';
 import { StatsScene } from './scenes/StatsScene';
 import { FutureScene } from './scenes/FutureScene';
 import { CTAScene } from './scenes/CTAScene';
-
-// Scene durations sum to 2000; 8 transitions × 25 overlap = net 1800 composition frames
-const SCENE_DURATIONS = {
-  hook:      165,
-  whatIsLLM: 225,
-  training:  200,
-  tokens:    195,
-  attention: 220,
-  apps:      255,
-  stats:     255,
-  future:    230,
-  cta:       255,
-};
-
-const TRANSITION_DUR = 25;
 
 // Module-level constant — static string rebuilt every frame otherwise
 const SCAN_LINES_BG = `repeating-linear-gradient(
@@ -187,7 +172,6 @@ const LogoBar = () => {
   );
 };
 
-const TOTAL_FRAMES = 1800;   // actual composition length (net of transition overlaps)
 const FADE_IN_FRAMES = 30;   // 1 s
 const FADE_OUT_FRAMES = 60;  // 2 s
 

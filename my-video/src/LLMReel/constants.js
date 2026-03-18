@@ -34,20 +34,23 @@ export const WIDTH = 1080;
 export const HEIGHT = 1920;
 export const TOTAL_FRAMES = 1800; // 60 seconds
 
-// Scene timing in frames
-export const SCENES = {
-  hook:      { start: 0,    dur: 150 }, // 0–5s
-  whatIsLLM: { start: 150,  dur: 210 }, // 5–12s
-  training:  { start: 360,  dur: 180 }, // 12–18s
-  tokens:    { start: 540,  dur: 180 }, // 18–24s
-  attention: { start: 720,  dur: 210 }, // 24–31s
-  apps:      { start: 930,  dur: 240 }, // 31–39s
-  stats:     { start: 1170, dur: 240 }, // 39–47s
-  future:    { start: 1410, dur: 210 }, // 47–54s
-  cta:       { start: 1620, dur: 180 }, // 54–60s
+// Scene durations in frames (gross, before transition overlap subtraction)
+// sum = 2000; 8 transitions × 25 = 200 overlap → net 1800 frames ✓
+export const SCENE_DURATIONS = {
+  hook:      165,
+  whatIsLLM: 225,
+  training:  200,
+  tokens:    195,
+  attention: 220,
+  apps:      255,
+  stats:     255,
+  future:    230,
+  cta:       255,
 };
 
+export const TRANSITION_DUR = 25;
+
 export const FONT = {
-  display: '"Space Grotesk", "Inter", system-ui, sans-serif',
-  mono: '"JetBrains Mono", "Fira Mono", monospace',
+  display: '"Space Grotesk", "Inter", system-ui, sans-serif, "Noto Color Emoji"',
+  mono: '"JetBrains Mono", "Fira Mono", monospace, "Noto Color Emoji"',
 };

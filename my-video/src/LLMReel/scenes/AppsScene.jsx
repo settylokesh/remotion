@@ -87,7 +87,7 @@ export const AppsScene = () => {
                 style={{
                   color: color,
                   fontSize: 38,
-                  fontFamily: '"Space Grotesk", sans-serif',
+                  fontFamily: '"Space Grotesk", sans-serif, "Noto Color Emoji"',
                   fontWeight: 800,
                   marginBottom: 4,
                   textShadow: `0 0 20px ${color}66`,
@@ -95,7 +95,7 @@ export const AppsScene = () => {
               >
                 {name}
               </div>
-              <div style={{ color: 'rgba(255,255,255,0.65)', fontSize: 26, fontFamily: '"Space Grotesk", sans-serif' }}>
+              <div style={{ color: 'rgba(255,255,255,0.65)', fontSize: 26, fontFamily: '"Space Grotesk", sans-serif, "Noto Color Emoji"' }}>
                 {desc}
               </div>
             </div>

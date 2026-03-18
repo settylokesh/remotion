@@ -99,7 +99,7 @@ export const StatsScene = () => {
           backdropFilter: 'blur(10px)',
         }}
       >
-        <p style={{ color: '#FCD34D', fontSize: 30, fontFamily: '"Space Grotesk", sans-serif', fontWeight: 700, margin: 0 }}>
+        <p style={{ color: '#FCD34D', fontSize: 30, fontFamily: '"Space Grotesk", sans-serif, "Noto Color Emoji"', fontWeight: 700, margin: 0 }}>
           🚀 GPT-4 is estimated to have 1.8 TRILLION parameters
         </p>
       </div>

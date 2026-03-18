@@ -63,3 +63,5 @@ __pycache__/
 *.pyo
 .venv/
 venv/
+
+pakage-lock.json

@@ -5,7 +5,7 @@ import {
   interpolate,
   Audio,
 } from 'remotion';
-import { vineBoom, ding } from '@remotion/sfx';
+import { ding } from '@remotion/sfx';
 import { ParticleField } from '../components/ParticleField';
 import { NeuralNetwork } from '../components/NeuralNetwork';
 import { GlowText, GradientText } from '../components/GlowText';
@@ -108,7 +108,7 @@ export const HookScene = () => {
             style={{
               color: '#A78BFA',
               fontSize: 28,
-              fontFamily: '"Space Grotesk", sans-serif',
+              fontFamily: '"Space Grotesk", sans-serif, "Noto Color Emoji"',
               fontWeight: 700,
               letterSpacing: '3px',
               textTransform: 'uppercase',
@@ -158,7 +158,7 @@ export const HookScene = () => {
           style={{
             color: COLORS.textMuted,
             fontSize: 40,
-            fontFamily: '"Space Grotesk", sans-serif',
+            fontFamily: '"Space Grotesk", sans-serif, "Noto Color Emoji"',
             fontWeight: 500,
             letterSpacing: '1px',
           }}
@@ -168,7 +168,6 @@ export const HookScene = () => {
       </div>
 
       {/* Audio */}
-      <Audio src={vineBoom} startFrom={0} volume={0.7} />
       <Audio src={ding} startFrom={0} endAt={40} volume={0.4} />
     </div>
   );

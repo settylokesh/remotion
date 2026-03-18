@@ -5,7 +5,7 @@ import {
   interpolate,
   Audio,
 } from 'remotion';
-import { vineBoom, ding, whoosh } from '@remotion/sfx';
+import { ding, whoosh } from '@remotion/sfx';
 import { GradientText } from '../components/GlowText';
 import { ParticleField } from '../components/ParticleField';
 import { GRADIENTS } from '../constants';
@@ -80,7 +80,7 @@ export const CTAScene = () => {
             style={{
               color: '#FFFFFF',
               fontSize: 52,
-              fontFamily: '"Space Grotesk", sans-serif',
+              fontFamily: '"Space Grotesk", sans-serif, "Noto Color Emoji"',
               fontWeight: 900,
               letterSpacing: '1px',
               textShadow: '0 2px 20px rgba(0,0,0,0.3)',
@@ -108,7 +108,7 @@ export const CTAScene = () => {
               padding: '20px 50px',
               color,
               fontSize: 40,
-              fontFamily: '"Space Grotesk", sans-serif',
+              fontFamily: '"Space Grotesk", sans-serif, "Noto Color Emoji"',
               fontWeight: 700,
               backdropFilter: 'blur(10px)',
               boxShadow: `0 0 30px ${color}33`,
@@ -131,7 +131,7 @@ export const CTAScene = () => {
           textAlign: 'center',
         }}
       >
-        <p style={{ color: '#A78BFA', fontSize: 30, fontFamily: '"Space Grotesk", sans-serif', fontWeight: 600, margin: 0, lineHeight: 1.5 }}>
+        <p style={{ color: '#A78BFA', fontSize: 30, fontFamily: '"Space Grotesk", sans-serif, "Noto Color Emoji"', fontWeight: 600, margin: 0, lineHeight: 1.5 }}>
           📱 Daily AI, LLMs & Tech breakdowns<br />
           <span style={{ color: 'rgba(255,255,255,0.6)', fontSize: 26, fontWeight: 500 }}>
             New reel every day • No fluff
@@ -139,7 +139,6 @@ export const CTAScene = () => {
         </p>
       </div>
 
-      <Audio src={vineBoom} startFrom={0} volume={0.6} />
       <Audio src={whoosh} startFrom={30} volume={0.4} />
       <Audio src={ding} startFrom={55} volume={0.5} />
       <Audio src={ding} startFrom={75} volume={0.45} />
