@@ -5,12 +5,24 @@ import { HelloWorld } from "./HelloWorld";
 import { Logo } from "./HelloWorld/Logo";
 import { LLMReel } from "./LLMReel";
 import { MCPReel } from "./MCPReel";
+import { ClaudeSkills } from "./ClaudeSkills";
+import { TOTAL_FRAMES as CLAUDE_SKILLS_TOTAL_FRAMES } from "./ClaudeSkills/constants";
 
 // Each <Composition> is an entry in the sidebar!
 
 export const RemotionRoot = () => {
   return (
     <>
+      {/* 🎬 Instagram Reel: Claude Skills — 90s · 1080×1920 · 30fps */}
+      <Composition
+        id="claude-skills-reel"
+        component={ClaudeSkills}
+        durationInFrames={CLAUDE_SKILLS_TOTAL_FRAMES}
+        fps={30}
+        width={1080}
+        height={1920}
+      />
+
       {/* 🎬 Instagram Reel: MCP Explained — 90s · 1080×1920 · 30fps */}
       <Composition
         id="MCPReel"
